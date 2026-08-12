@@ -1,0 +1,16 @@
+{
+  "items": [
+    {"name":"فستان ميدي كتان", "cat":"فساتين", "price":850, "oldPrice":null, "icon":"dress"},
+    {"name":"فستان سواريه مطرز", "cat":"فساتين", "price":1450, "oldPrice":1650, "icon":"dress"},
+    {"name":"بلوزة حرير كلاسيك", "cat":"بلايز", "price":480, "oldPrice":null, "icon":"blouse"},
+    {"name":"بلوزة كتان واسعة", "cat":"بلايز", "price":420, "oldPrice":null, "icon":"blouse"},
+    {"name":"تيشيرت أساسي قطن", "cat":"بلايز", "price":250, "oldPrice":290, "icon":"blouse"},
+    {"name":"جاكيت بليزر", "cat":"جاكيتات", "price":950, "oldPrice":null, "icon":"jacket"},
+    {"name":"كارديجان صوف", "cat":"جاكيتات", "price":650, "oldPrice":null, "icon":"knit"},
+    {"name":"عباية مطرزة", "cat":"فساتين", "price":1200, "oldPrice":null, "icon":"abaya"},
+    {"name":"تريكو شتوي", "cat":"جاكيتات", "price":550, "oldPrice":620, "icon":"knit"},
+    {"name":"حقيبة يد جلد", "cat":"إكسسوارات", "price":780, "oldPrice":null, "icon":"bag"},
+    {"name":"وشاح حرير", "cat":"إكسسوارات", "price":320, "oldPrice":null, "icon":"scarf"},
+    {"name":"حزام جلد", "cat":"إكسسوارات", "price":220, "oldPrice":null, "icon":"belt"}
+  ]
+}
