@@ -1,0 +1,31 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "products"
+    label: "المنتجات"
+    files:
+      - file: "products.json"
+        label: "قائمة المنتجات"
+        name: "products"
+        fields:
+          - label: "المنتجات"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.price}} ج.م"
+            fields:
+              - {label: "اسم المنتج", name: "name", widget: "string"}
+              - label: "التصنيف"
+                name: "cat"
+                widget: "select"
+                options: ["فساتين", "بلايز", "جاكيتات", "إكسسوارات"]
+              - {label: "السعر (ج.م)", name: "price", widget: "number", value_type: "int"}
+              - {label: "السعر قبل الخصم (اختياري)", name: "oldPrice", widget: "number", value_type: "int", required: false}
+              - label: "شكل الأيقونة"
+                name: "icon"
+                widget: "select"
+                options: ["dress", "blouse", "jacket", "knit", "abaya", "bag", "scarf", "belt"]
